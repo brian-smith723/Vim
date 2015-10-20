@@ -1,0 +1,69 @@
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/vim-bufexplorer"]
+	path = bundle/vim-bufexplorer
+	url = https://github.com/thisivan/vim-bufexplorer
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/tpope/vim-markdown
+[submodule "bundle/cocoa"]
+	path = bundle/cocoa
+	url = https://github.com/msanders/cocoa.vim
+[submodule "bundle/FuzzyFinder"]
+	path = bundle/FuzzyFinder
+	url = https://github.com/vim-scripts/FuzzyFinder.git
+[submodule "bundle/L9"]
+	path = bundle/L9
+	url = https://github.com/vim-scripts/L9
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "bundle/vim-scala"]
+	path = bundle/vim-scala
+	url = https://github.com/mattdenner/vim-scala
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/vim-gitgutter"]
+	path = bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "bundle/vim-ragtag"]
+	path = bundle/vim-ragtag
+	url = https://github.com/tpope/vim-ragtag
+[submodule "bundle/rename"]
+	path = bundle/rename
+	url = https://github.com/danro/rename.vim
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule "bundle/vim-matchit"]
+	path = bundle/vim-matchit
+	url = https://github.com/tmhedberg/matchit
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/bling/vim-airline
+[submodule "bundle/vim-opencl"]
+	path = bundle/vim-opencl
+	url = https://github.com/petRUShka/vim-opencl
+[submodule "bundle/vim-jdaddy"]
+	path = bundle/vim-jdaddy
+	url = https://github.com/tpope/vim-jdaddy/
+[submodule "bundle/vim-indent-guides.git"]
+	path = bundle/vim-indent-guides.git
+	url = https://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
