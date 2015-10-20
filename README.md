@@ -1,7 +1,7 @@
 ## Installation
 
 ```
-curl https://raw.githubusercontent.com/lukecampbell/vim-folder/master/install.sh | bash -s stable
+curl https://raw.githubusercontent.com/brian-smith723/Vim/master/install.sh | bash -s stable
 ```
 
 ## Plugins
