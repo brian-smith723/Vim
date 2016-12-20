@@ -1,4 +1,4 @@
-execute pathogen#infect()
+call pathogen#infect()
 syntax on
 filetype on
 filetype indent on
@@ -59,9 +59,10 @@ nnoremap <leader>b :set relativenumber<cr>
 nnoremap <leader>tn :tabnew<cr>
 nnoremap <leader>bn :bn<cr>
 nnoremap <leader>bd :bd<cr>
-nnoremap <leader>B :set nu<cr>
+nnoremap <leader>B :set norelativenumber<cr>
 nnoremap <leader>tb :TagbarToggle<cr>
 nnoremap <leader>N :windo diffoff<cr>
+nnoremap <leader>R :redraw!<cr>
 nnoremap <tab> %
 vnoremap <tab> %
 command! Wipe bufdo bd
@@ -70,6 +71,7 @@ command! Filepath let @+=expand('%:p')
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%121v.\+/
 let g:syntastic_check_on_open=1
+let g:syntastic_javascript_checkers = ['jshint']
 
 let g:indent_guides_start_level=2
 let g:indent_guides_guide_size=1
@@ -99,4 +101,13 @@ endfunction
 
 command! Gdone :call s:gdone()
 
+function! s:mvimres()
+    set lines=95
+    set columns=335
+endfunction
 
+command! MVimRes :call s:mvimres()
+
+set foldmethod=syntax
+set foldlevelstart=1
+let xml_syntax_folding=1
